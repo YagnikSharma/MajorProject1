@@ -1,0 +1,140 @@
+body{
+    background: #1fa01363;
+}
+#main{
+    position: absolute;
+    left: 43.52%;
+    right: 40.83%;
+    top: 25.61%;
+    bottom: 47.15%;
+    
+}
+#star1{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 480px;
+    top: 198px;
+   
+}
+#star2{
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 790px;
+    top: 86px;
+}
+#star3{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 613px;
+    top: 86px;
+}
+#star4{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 690px;
+    top: 122px;
+}
+#star5{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 605px;
+    top: 351px;
+}
+#star6{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 851px;
+    top: 246px;
+}
+#star7{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 910px;
+    top: 173px;
+}
+#star9{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 579px;
+    top: 137px;
+}
+#hurray{
+    position: absolute;
+    width: 464px;
+    height: 86px;
+    left: 500px;
+    top: 350px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 91px;
+    font-weight: 600;
+    line-height: 107px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#won{
+    position: absolute;
+    width: 510px;
+    height: 48px;
+    left: 490px;
+    top: 483px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#box{
+    position: absolute;
+    width: 174px;
+    height: 44px;
+    left: 635px;
+    top: 639px;
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+#again{
+    position: absolute;
+    width: 109px;
+    height: 14px;
+    left: 670px;
+    top: 653px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #6B6B6B;
+    cursor: pointer;
+}
+#loose{
+    position: absolute;
+    width: 464px;
+    height: 86px;
+    left: 500px;
+    top: 200px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 91px;
+    font-weight: 600;
+    line-height: 107px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFFFFF;
+}
