@@ -20,7 +20,7 @@ function getCselection()
 function calcResult(you,com)
 {
   if (you==com){
-    result = 'Draw'
+    result = 'TIE UP'
     return;
   }
   else if ((you=== 'rock' && com=== 'scissors')||(you==='paper' && com=== 'rock')|| (you=== 'scissors' && com== 'paper'))
@@ -30,7 +30,7 @@ function calcResult(you,com)
       window.location.assign("hurray.html")
     }
     else{
-      result="wins";
+      result="YOU WIN AGAINST PC";
       return;
     }
   }
@@ -40,7 +40,7 @@ function calcResult(you,com)
       window.location.assign("Loose.html")
     }
     else{
-      result= "Lose";
+      result= "YOU LOST AGAINST PC";
       return;
     }
   }

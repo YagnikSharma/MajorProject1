@@ -265,11 +265,16 @@ body{
 
 #result{
     position: absolute;
-    width: 80px;
+    width: 250px;
     height: 58.51px;
-    left: 630px;
-    top: 339px;
-    border-radius: 50%;
+    left: 590px;
+    top: 210px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 46px;
+    color: #FFFFFF;
   
 }
 #rect2{
