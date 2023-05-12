@@ -301,17 +301,3 @@ body{
     line-height: 25px;
     letter-spacing: 0.1em;
 }
-.content{
-    position: absolute;
-    width: 156px;
-    height: 27px;
-    top: 25px;
-    left: 61px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 29px;
-    line-height: 34px;
-    color: #FFFFFF;
-
-}

@@ -1,3 +1,4 @@
+
 let result= 'Start';
 let uscore=0;
 let cscore=0;
@@ -6,7 +7,6 @@ function play(input)
   let uselect= input.textContent;
   let cselect= getCselection();
   let result= calcResult(uselect,cselect);
-  
   showscore();
 }
 
@@ -37,7 +37,7 @@ function calcResult(you,com)
   else{
     cscore+=1;
     if(cscore==15){
-      window.location.assign("Loose.html")
+      window.location.assign("loose.html")
     }
     else{
       result= "YOU LOST AGAINST PC";
@@ -60,3 +60,4 @@ function playAgain()
 {
   window.location.assign("index.html")
 }
+
