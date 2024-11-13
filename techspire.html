@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroBand - Health & Mind Monitoring</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .icons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .icons img {
+            width: 35px;
+            height: 35px;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .greeting {
+            font-size: 1.6em;
+            margin-bottom: 10px;
+        }
+
+        .premium-plan {
+            background-color: #3a86ff;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .premium-plan button {
+            background-color: #faff00;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: #333;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .actions div {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 40%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .actions div h3 {
+            margin-bottom: 10px;
+            color: #3a86ff;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .categories div {
+            width: 20%;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .categories div h4 {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .footer div {
+            text-align: center;
+            font-size: 1em;
+            color: #3a86ff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>NeuroBand</h1>
+        <div class="icons">
+            <img src="notification_icon.png" alt="Notifications" />
+            <img src="profile_icon.png" alt="Profile" />
+        </div>
+    </header>
+
+    <div class="content">
+        <p class="greeting">Good Morning, USERNAME</p>
+
+        <div class="premium-plan">
+            <h2>Premium Plan</h2>
+            <p>Unlock More Potentials and get all premium features.</p>
+            <button>Upgrade</button>
+        </div>
+
+        <div class="actions">
+            <div id="eeg-control">
+                <h3>EEG Headband</h3>
+                <p>Control IoT devices with mental focus</p>
+            </div>
+            <div id="smartwatch-control">
+                <h3>Smartwatch Sensors</h3>
+                <p>Track pulse & activity in real-time</p>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div>
+                <img src="health_icon.png" alt="Health" />
+                <h4>Health</h4>
+            </div>
+            <div>
+                <img src="daily_life_icon.png" alt="Daily Life" />
+                <h4>Daily Life</h4>
+            </div>
+            <div>
+                <img src="design_icon.png" alt="Design" />
+                <h4>Design</h4>
+            </div>
+            <div>
+                <img src="business_icon.png" alt="Business" />
+                <h4>Business</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="home">Home</div>
+        <div id="search">Search</div>
+        <div id="chat">Chat</div>
+        <div id="settings">Settings</div>
+    </div>
+
+    <script>
+        document.getElementById('eeg-control').addEventListener('click', function() {
+            alert('EEG Headband Control Activated!');
+        });
+
+        document.getElementById('smartwatch-control').addEventListener('click', function() {
+            alert('Smartwatch Sensor Tracking Activated!');
+        });
+
+        // Dynamic greeting with user's name
+        const username = "Techspire";  // Simulating dynamic user name input
+        document.querySelector(".greeting").innerText = `Good Morning, ${username}`;
+
+        // Functionality for bottom navigation (just simple alerts as placeholders)
+        document.getElementById('home').addEventListener('click', function() {
+            alert('Navigating to Home');
+        });
+
+        document.getElementById('search').addEventListener('click', function() {
+            alert('Opening Search');
+        });
+
+        document.getElementById('chat').addEventListener('click', function() {
+            alert('Opening Chat with AI');
+        });
+
+        document.getElementById('settings').addEventListener('click', function() {
+            alert('Opening Settings');
+        });
+    </script>
+
+</body>
+</html>

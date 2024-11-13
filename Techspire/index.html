@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroBand - Health & Mind Monitoring</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>NeuroBand</h1>
+        <div class="icons">
+            <img src="images/notification_icon.png" alt="Notifications" />
+            <img src="images/profile_icon.png" alt="Profile" />
+        </div>
+    </header>
+
+    <div class="content">
+        <p class="greeting">Good Morning, <span id="username">USERNAME</span></p>
+
+        <div class="premium-plan">
+            <h2>Premium Plan</h2>
+            <p>Unlock More Potentials and get all premium features.</p>
+            <button onclick="alert('Premium plan coming soon!')">Upgrade</button>
+        </div>
+
+        <div class="actions">
+            <div onclick="navigateTo('eeg.html')">
+                <h3>EEG Headband</h3>
+                <p>Control IoT devices with mental focus</p>
+            </div>
+            <div onclick="navigateTo('smartwatch.html')">
+                <h3>Smartwatch Sensors</h3>
+                <p>Track pulse & activity in real-time</p>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div onclick="navigateTo('health.html')">
+                <img src="images/health_icon.png" alt="Health" />
+                <h4>Health</h4>
+            </div>
+            <div>
+                <img src="images/daily_life_icon.png" alt="Daily Life" />
+                <h4>Daily Life</h4>
+            </div>
+            <div>
+                <img src="images/design_icon.png" alt="Design" />
+                <h4>Design</h4>
+            </div>
+            <div>
+                <img src="images/business_icon.png" alt="Business" />
+                <h4>Business</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="home" onclick="navigateTo('index.html')">Home</div>
+        <div id="search" onclick="alert('Search coming soon!')">Search</div>
+        <div id="chat" onclick="alert('Chat with AI coming soon!')">Chat</div>
+        <div id="settings" onclick="alert('Settings coming soon!')">Settings</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
